@@ -1,42 +1,32 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Home, Shield, TreePine, Car, Zap, Users } from 'lucide-react';
-
 const About = () => {
-  const features = [
-    {
-      icon: Home,
-      title: '4 nowoczesne domy',
-      description: '2 bliźniaki naprzeciwko siebie w kameralnym osiedlu'
-    },
-    {
-      icon: TreePine,
-      title: 'Prywatna zieleń',
-      description: 'Własna droga wewnętrzna i część wspólna zieleni'
-    },
-    {
-      icon: Shield,
-      title: 'Bezpieczne osiedle',
-      description: 'Kameralne, spokojne miejsce idealne dla rodzin'
-    },
-    {
-      icon: Car,
-      title: 'Garaż i ogród',
-      description: 'Każdy dom ma własny garaż i przestronny ogród'
-    },
-    {
-      icon: Zap,
-      title: 'Energooszczędność',
-      description: 'Nowoczesne rozwiązania budowlane i materiały'
-    },
-    {
-      icon: Users,
-      title: '3 sypialnie + gabinet',
-      description: 'Przemyślany układ dla komfortowego życia rodziny'
-    }
-  ];
-
-  return (
-    <section id="about" className="py-20 bg-gradient-to-b from-background to-secondary/30">
+  const features = [{
+    icon: Home,
+    title: '4 nowoczesne domy',
+    description: '2 bliźniaki naprzeciwko siebie w kameralnym osiedlu'
+  }, {
+    icon: TreePine,
+    title: 'Prywatna zieleń',
+    description: 'Własna droga wewnętrzna i część wspólna zieleni'
+  }, {
+    icon: Shield,
+    title: 'Bezpieczne osiedle',
+    description: 'Kameralne, spokojne miejsce idealne dla rodzin'
+  }, {
+    icon: Car,
+    title: 'Garaż i ogród',
+    description: 'Każdy dom ma własny garaż i przestronny ogród'
+  }, {
+    icon: Zap,
+    title: 'Energooszczędność',
+    description: 'Nowoczesne rozwiązania budowlane i materiały'
+  }, {
+    icon: Users,
+    title: '3 sypialnie + gabinet',
+    description: 'Przemyślany układ dla komfortowego życia rodziny'
+  }];
+  return <section id="about" className="py-20 bg-gradient-to-b from-background to-secondary/30">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
@@ -51,12 +41,9 @@ const About = () => {
 
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {features.map((feature, index) => (
-            <Card 
-              key={index} 
-              className="card-gradient hover-lift border-0 shadow-soft animate-slide-up"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
+          {features.map((feature, index) => <Card key={index} className="card-gradient hover-lift border-0 shadow-soft animate-slide-up" style={{
+          animationDelay: `${index * 100}ms`
+        }}>
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <feature.icon className="h-8 w-8 text-primary" />
@@ -68,8 +55,7 @@ const About = () => {
                   {feature.description}
                 </p>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* Stats Section */}
@@ -79,23 +65,29 @@ const About = () => {
               <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">4</div>
               <div className="text-muted-foreground">Domy w osiedlu</div>
             </div>
-            <div className="animate-scale-in" style={{ animationDelay: '100ms' }}>
-              <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">144,91</div>
+            <div className="animate-scale-in" style={{
+            animationDelay: '100ms'
+          }}>
+              <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">170,5
+
+            </div>
               <div className="text-muted-foreground">m² powierzchni</div>
             </div>
-            <div className="animate-scale-in" style={{ animationDelay: '200ms' }}>
+            <div className="animate-scale-in" style={{
+            animationDelay: '200ms'
+          }}>
               <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">12</div>
               <div className="text-muted-foreground">minut do Siedlec</div>
             </div>
-            <div className="animate-scale-in" style={{ animationDelay: '300ms' }}>
+            <div className="animate-scale-in" style={{
+            animationDelay: '300ms'
+          }}>
               <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">100%</div>
               <div className="text-muted-foreground">Gotowe do zamieszkania</div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
