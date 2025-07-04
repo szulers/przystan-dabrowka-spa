@@ -42,13 +42,13 @@ const Header = () => {
         >
           <img 
             src="/lovable-uploads/c8a23028-eef7-4544-91a9-9c4923e3fd82.png" 
-            alt="Przystań Dąbrówka Ług Logo" 
+            alt="Dąbrówka Zacisze Logo" 
             className="h-12 w-auto"
           />
           <div className="hidden sm:block">
             <h3 className="font-playfair font-semibold text-primary text-lg leading-tight">
-              Przystań<br />
-              <span className="text-sm text-muted-foreground">Dąbrówka Ług</span>
+              Dąbrówka<br />
+              <span className="text-sm text-muted-foreground">Zacisze</span>
             </h3>
           </div>
         </button>

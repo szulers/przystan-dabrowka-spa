@@ -37,7 +37,7 @@ const Hero = () => {
 
           {/* Main Heading */}
           <h1 className="font-playfair text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Przystań Dąbrówka Ług
+            Dąbrówka Zacisze
             <span className="block text-2xl md:text-3xl lg:text-4xl font-normal mt-2 text-white/90">
               Twój rodzinny dom wśród natury
             </span>

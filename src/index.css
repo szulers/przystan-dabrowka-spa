@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Przystań Dąbrówka Ług Design System - Natural, Modern, Family-Friendly */
+/* Dąbrówka Zacisze Design System - Natural, Modern, Family-Friendly */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
@@ -79,38 +79,38 @@
 
   .dark {
     /* Dark mode with natural theme */
-    --background: 0 0% 11%; /* Dark graphite #1C1C1C */
-    --foreground: 60 21% 96%;
+    --background: 0 0% 12%; /* Dark graphite #1E1E1E */
+    --foreground: 0 0% 96%; /* Light text #F5F5F5 */
 
     --card: 0 0% 15%;
-    --card-foreground: 60 21% 96%;
+    --card-foreground: 0 0% 96%;
 
     --popover: 0 0% 15%;
-    --popover-foreground: 60 21% 96%;
+    --popover-foreground: 0 0% 96%;
 
     /* Olive green remains primary in dark mode */
-    --primary: 70 43% 45%;
-    --primary-foreground: 0 0% 11%;
-    --primary-light: 70 43% 55%;
-    --primary-dark: 70 43% 35%;
+    --primary: 120 36% 55%; /* Pastel green #79C9A5 */
+    --primary-foreground: 0 0% 12%;
+    --primary-light: 120 36% 65%;
+    --primary-dark: 120 36% 45%;
 
-    --secondary: 0 0% 18%;
-    --secondary-foreground: 60 21% 96%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 96%;
     --secondary-dark: 0 0% 12%;
 
-    --accent: 60 21% 88%;
-    --accent-foreground: 0 0% 11%;
-    --accent-light: 60 21% 92%;
+    --accent: 0 0% 12%; /* Same as background for footer */
+    --accent-foreground: 0 0% 96%;
+    --accent-light: 0 0% 20%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 70%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 22%;
-    --input: 0 0% 18%;
-    --ring: 70 43% 45%;
+    --input: 0 0% 15%;
+    --ring: 120 36% 55%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

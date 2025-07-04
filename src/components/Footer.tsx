@@ -40,12 +40,12 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-6">
               <img 
                 src="/lovable-uploads/c8a23028-eef7-4544-91a9-9c4923e3fd82.png" 
-                alt="Przystań Dąbrówka Ług Logo" 
+                alt="Dąbrówka Zacisze Logo" 
                 className="h-12 w-auto"
               />
               <div>
                 <h3 className="font-playfair font-bold text-xl text-white">
-                  Przystań Dąbrówka Ług
+                  Dąbrówka Zacisze
                 </h3>
                 <p className="text-white/80 text-sm">Nowoczesne domy dla rodzin</p>
               </div>
@@ -87,20 +87,20 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a 
-                  href="tel:+48123456789"
+                  href="tel:698857062"
                   className="flex items-center space-x-3 text-white/70 hover:text-white transition-smooth"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>+48 123 456 789</span>
+                  <span>698 857 062</span>
                 </a>
               </li>
               <li>
                 <a 
-                  href="mailto:kontakt@przystandabrowka.pl"
+                  href="mailto:biuro@dabrowkazacisze.pl"
                   className="flex items-center space-x-3 text-white/70 hover:text-white transition-smooth"
                 >
                   <Mail className="h-4 w-4" />
-                  <span>kontakt@przystandabrowka.pl</span>
+                  <span>biuro@dabrowkazacisze.pl</span>
                 </a>
               </li>
               <li>
@@ -122,7 +122,7 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-white/60 text-sm">
-              © {currentYear} Przystań Dąbrówka Ług. Wszystkie prawa zastrzeżone.
+              © {currentYear} Dąbrówka Zacisze. Wszystkie prawa zastrzeżone.
             </div>
             <div className="flex items-center space-x-6 text-sm text-white/60">
               <button 
@@ -140,7 +140,7 @@ const Footer = () => {
               </button>
               <span>|</span>
               <a 
-                href="mailto:kontakt@przystandabrowka.pl"
+                href="mailto:biuro@dabrowkazacisze.pl"
                 className="hover:text-white transition-smooth"
               >
                 Kontakt

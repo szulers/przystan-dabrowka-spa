@@ -43,15 +43,15 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Telefon',
-      content: '+48 123 456 789',
-      action: 'tel:+48123456789',
+      content: '698 857 062',
+      action: 'tel:698857062',
       description: 'Zadzwoń do nas'
     },
     {
       icon: Mail,
       title: 'E-mail',
-      content: 'kontakt@przystandabrowka.pl',
-      action: 'mailto:kontakt@przystandabrowka.pl',
+      content: 'biuro@dabrowkazacisze.pl',
+      action: 'mailto:biuro@dabrowkazacisze.pl',
       description: 'Napisz do nas'
     },
     {
@@ -238,7 +238,7 @@ const Contact = () => {
                     asChild 
                     className="flex-1 bg-primary hover:bg-primary-dark text-white"
                   >
-                    <a href="tel:+48123456789">
+                    <a href="tel:698857062">
                       <Phone className="h-4 w-4 mr-2" />
                       Zadzwoń teraz
                     </a>
@@ -248,7 +248,7 @@ const Contact = () => {
                     variant="outline"
                     className="flex-1"
                   >
-                    <a href="mailto:kontakt@przystandabrowka.pl">
+                    <a href="mailto:biuro@dabrowkazacisze.pl">
                       <Mail className="h-4 w-4 mr-2" />
                       Napisz e-mail
                     </a>
