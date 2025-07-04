@@ -8,9 +8,29 @@ const Gallery = () => {
 
   const images = [
     {
-      src: '/lovable-uploads/e994d6d9-4fc7-49b4-b626-f86dbd10d446.png',
-      alt: 'Widok zewnętrzny osiedla',
+      src: '/lovable-uploads/babee5a7-7ce4-4464-89bd-9993fd4aebcf.png',
+      alt: 'Widok na osiedle z głównej drogi',
       category: 'Zewnętrzne'
+    },
+    {
+      src: '/lovable-uploads/9420677e-3b4c-4a9b-b593-fa7b988f34d6.png',
+      alt: 'Dom z garażem i ogrodem',
+      category: 'Zewnętrzne'
+    },
+    {
+      src: '/lovable-uploads/66de8c7d-36d0-4a05-ba53-17f29b7bd6bf.png',
+      alt: 'Kameralne osiedle 4 domów',
+      category: 'Zewnętrzne'
+    },
+    {
+      src: '/lovable-uploads/0a7f7352-e56a-4130-8c4c-5a7fbd6a7cb1.png',
+      alt: 'Widok z ogrodu na dom',
+      category: 'Zewnętrzne'
+    },
+    {
+      src: '/lovable-uploads/0a1d84d6-f3a1-4a64-ba20-1e76d17674f8.png',
+      alt: 'Salon z aneksem kuchennym',
+      category: 'Wnętrza'
     },
     {
       src: '/lovable-uploads/5dfdf22a-f265-4c93-b677-d1e55511a745.png',
@@ -36,6 +56,11 @@ const Gallery = () => {
       src: '/lovable-uploads/e6450fd2-eb96-4073-b3c4-476ebde83d86.png',
       alt: 'Rzut piętra z góry',
       category: 'Rzuty'
+    },
+    {
+      src: '/lovable-uploads/e994d6d9-4fc7-49b4-b626-f86dbd10d446.png',
+      alt: 'Widok zewnętrzny osiedla',
+      category: 'Zewnętrzne'
     },
     {
       src: '/lovable-uploads/1c879603-c4f9-4b16-97e8-8d8305d03f73.png',

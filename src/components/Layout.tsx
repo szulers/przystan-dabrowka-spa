@@ -9,30 +9,28 @@ const Layout = () => {
   const floorPlans = [
     {
       id: 'ground',
-      title: 'Parter - 94,33 m²',
+      title: 'Parter - 84,5 m²',
       image: '/lovable-uploads/e40343b0-2b8e-4b8e-99b9-9fbe5837a7d3.png',
       rooms: [
-        { name: 'Wiatrołap', area: '4,51 m²' },
-        { name: 'Korytarz', area: '4,65 m²' },
-        { name: 'Gabinet / Pokój', area: '9,47 m²' },
-        { name: 'WC', area: '2,20 m²' },
-        { name: 'Salon + Jadalnia', area: '24,44 m²' },
-        { name: 'Kuchnia', area: '8,20 m²' },
-        { name: 'Pom. gospodarcze / kotłownia', area: '3,68 m²' },
-        { name: 'Garaż', area: '18,59 m²' }
+        { name: 'Salon z aneksem kuchennym', area: '38,9 m²' },
+        { name: 'Pokój', area: '11,6 m²' },
+        { name: 'Hol', area: '10,5 m²' },
+        { name: 'WC', area: '3,1 m²' },
+        { name: 'Garaż jednostanowiskowy', area: '23,5 m²' }
       ]
     },
     {
       id: 'first',
-      title: 'Piętro - 50,58 m²',
+      title: 'Piętro - 86 m²',
       image: '/lovable-uploads/a83c274b-2841-4a1b-aa28-ed8daae4c943.png',
       rooms: [
-        { name: 'Korytarz', area: '7,13 m²' },
-        { name: 'Pokój 1', area: '10,88 m²' },
-        { name: 'Pokój 2', area: '10,76 m²' },
-        { name: 'Pokój 3', area: '12,39 m²' },
-        { name: 'Garderoba', area: '3,00 m²' },
-        { name: 'Łazienka', area: '6,42 m²' }
+        { name: 'Korytarz', area: '10,8 m²' },
+        { name: 'Pokój 1', area: '12,2 m²' },
+        { name: 'Pokój 2', area: '10,6 m²' },
+        { name: 'Pokój 3', area: '11,2 m²' },
+        { name: 'Pokój 4', area: '11,5 m²' },
+        { name: 'Pokój 5 (Master Bedroom)', area: '22,7 m²' },
+        { name: 'Łazienka', area: '7,0 m²' }
       ]
     }
   ];
@@ -54,9 +52,9 @@ const Layout = () => {
             Przemyślany rozkład dla wygodnego życia
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Każdy z domów oferuje 144,91 m² powierzchni całkowitej. Parter to otwarta strefa dzienna 
-            z salonem, kuchnią, gabinetem i garażem. Na piętrze znajdują się 3 sypialnie, łazienka 
-            i garderoba – wszystko zaprojektowane z myślą o rodzinie.
+            Każdy z domów oferuje 170,5 m² powierzchni użytkowej. Parter to otwarta strefa dzienna 
+            z salonem z aneksem kuchennym, dodatkowym pokojem i garażem. Na piętrze znajdują się 5 pokoi 
+            w tym główna sypialnia oraz łazienka – wszystko zaprojektowane z myślą o rodzinie.
           </p>
         </div>
 
@@ -112,8 +110,8 @@ const Layout = () => {
               <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
                 Powierzchnia całkowita
               </h3>
-              <div className="text-4xl font-bold text-primary font-playfair">144,91 m²</div>
-              <p className="text-muted-foreground mt-2">Idealna dla 4-osobowej rodziny</p>
+              <div className="text-4xl font-bold text-primary font-playfair">170,5 m²</div>
+              <p className="text-muted-foreground mt-2">Idealna dla rodziny z dziećmi</p>
             </CardContent>
           </Card>
         </div>

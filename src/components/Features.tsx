@@ -32,13 +32,13 @@ const Features = () => {
     },
     {
       icon: Home,
-      title: 'Duży salon i ogród',
-      description: 'Przestronny salon 24m² i prywatny ogród'
+      title: 'Przestronny salon z aneksem',
+      description: 'Salon z aneksem kuchennym 38,9m² i prywatny ogród'
     },
     {
       icon: Laptop,
-      title: 'Praca zdalna w domu',
-      description: 'Dedykowany gabinet idealny na home office'
+      title: '6 pokoi do aranżacji',
+      description: 'Elastyczna przestrzeń: gabinet, biuro, pokoje gościnne'
     }
   ];
 
