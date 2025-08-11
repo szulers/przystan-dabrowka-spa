@@ -79,8 +79,7 @@ const Contact = () => {
             Skontaktuj się z nami
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Masz pytania o nasze domy? Chcesz umówić się na prezentację? 
-            Skontaktuj się z nami już dziś!
+            Umów prezentację domu — odpowiemy na wszystkie pytania telefonicznie lub mailowo i dopasujemy dogodny termin odwiedzin.
           </p>
         </div>
 
@@ -231,7 +230,7 @@ const Contact = () => {
                   Potrzebujesz szybkiej odpowiedzi?
                 </h4>
                 <p className="text-muted-foreground mb-4 text-sm">
-                  Zadzwoń do nas bezpośrednio lub umów się na spotkanie
+                  Zadzwoń do nas bezpośrednio lub umów się na spotkanie. Odpowiadamy szybko telefonicznie i mailowo.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Button 

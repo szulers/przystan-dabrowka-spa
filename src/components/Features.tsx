@@ -1,4 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { 
   Layout, 
   TreePine, 
@@ -96,9 +97,19 @@ const Features = () => {
               Gotowy na nowe życie w naturalnym otoczeniu?
             </h3>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Skontaktuj się z nami już dziś i umów się na prezentację domów. 
-              Pomożemy Ci wybrać idealny dom dla Twojej rodziny.
+              Umów prezentację domu — odpowiemy na wszystkie pytania telefonicznie lub mailowo i pokażemy Ci inwestycję na żywo.
             </p>
+            <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+              <Button asChild className="bg-primary hover:bg-primary-dark text-white">
+                <a href="tel:698857062">Zadzwoń: 698 857 062</a>
+              </Button>
+              <Button 
+                variant="outline"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Napisz / Umów wizytę
+              </Button>
+            </div>
           </div>
         </div>
       </div>

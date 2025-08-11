@@ -73,16 +73,20 @@ const Hero = () => {
               size="lg" 
               className="bg-primary hover:bg-primary-dark text-white border-0 px-8 py-3 text-lg font-semibold shadow-medium hover-lift"
             >
-              Skontaktuj się z nami
+              Umów prezentację
             </Button>
             <Button 
               onClick={scrollToAbout}
               variant="outline" 
               size="lg"
-              className="px-8 py-3 text-lg font-semibold"
+              className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg font-semibold backdrop-blur-sm"
             >
               Poznaj szczegóły
             </Button>
+          </div>
+          <p className="mt-4 text-white/90 text-sm md:text-base">
+            Odpowiadamy na wszystkie pytania telefonicznie lub mailowo — serdecznie zapraszamy do odwiedzin!
+          </p>
           </div>
         </div>
 
@@ -95,7 +99,6 @@ const Hero = () => {
             <ArrowDown className="h-6 w-6" />
           </button>
         </div>
-      </div>
     </section>
   );
 };
