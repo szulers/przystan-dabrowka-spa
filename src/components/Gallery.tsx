@@ -58,13 +58,13 @@ const Gallery = () => {
       category: 'Wnętrza'
     },
     {
-      src: '/lovable-uploads/355b5a99-225e-4268-a2bd-313e0406226c.png',
-      alt: 'Rzut parteru z góry – układ funkcjonalny',
+      src: '/lovable-uploads/270f9780-ff25-4a97-8b01-b93ef37646e6.png',
+      alt: 'Rzut parteru – A1_RZUT PARTERU (1)',
       category: 'Rzuty'
     },
     {
-      src: '/lovable-uploads/e6450fd2-eb96-4073-b3c4-476ebde83d86.png',
-      alt: 'Rzut piętra z góry – przestronne sypialnie',
+      src: '/lovable-uploads/6ca660b1-2c61-4f2a-b427-ec4daa005b7f.png',
+      alt: 'Rzut piętra – A1_RZUT PIĘTRA (2)',
       category: 'Rzuty'
     },
     {

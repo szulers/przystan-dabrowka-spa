@@ -10,7 +10,7 @@ const Layout = () => {
     {
       id: 'ground',
       title: 'Parter - 84,5 m²',
-      image: '/lovable-uploads/e40343b0-2b8e-4b8e-99b9-9fbe5837a7d3.png',
+      image: '/lovable-uploads/270f9780-ff25-4a97-8b01-b93ef37646e6.png',
       rooms: [
         { name: 'Salon z aneksem kuchennym', area: '38,9 m²' },
         { name: 'Pokój', area: '11,6 m²' },
@@ -22,7 +22,7 @@ const Layout = () => {
     {
       id: 'first',
       title: 'Piętro - 86 m²',
-      image: '/lovable-uploads/a83c274b-2841-4a1b-aa28-ed8daae4c943.png',
+      image: '/lovable-uploads/6ca660b1-2c61-4f2a-b427-ec4daa005b7f.png',
       rooms: [
         { name: 'Korytarz', area: '10,8 m²' },
         { name: 'Pokój 1', area: '12,2 m²' },
