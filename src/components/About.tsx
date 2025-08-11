@@ -39,6 +39,13 @@ const About = () => {
           </p>
         </div>
 
+        <div className="max-w-4xl mx-auto mb-8 p-4 rounded-xl bg-primary/10 text-foreground shadow-soft animate-fade-in">
+          <p className="text-sm md:text-base">
+            W standardzie: kompletna elewacja, kostka brukowa przed domem oraz opaska z kostki wokół domu. 
+            Każdy dom posiada działkę o powierzchni ok. 290 m².
+          </p>
+        </div>
+
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {features.map((feature, index) => <Card key={index} className="card-gradient hover-lift border-0 shadow-soft animate-slide-up" style={{

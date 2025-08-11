@@ -39,6 +39,16 @@ const Features = () => {
       icon: Laptop,
       title: '6 pokoi do aranżacji',
       description: 'Elastyczna przestrzeń: gabinet, biuro, pokoje gościnne'
+    },
+    {
+      icon: Home,
+      title: 'Wykończona elewacja i kostka',
+      description: 'Elewacja, kostka przed domem i opaska z kostki w standardzie'
+    },
+    {
+      icon: MapPin,
+      title: 'Działka ok. 290 m²',
+      description: 'Każdy dom z prywatną działką ok. 290 m²'
     }
   ];
 

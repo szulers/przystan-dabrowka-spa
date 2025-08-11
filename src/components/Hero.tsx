@@ -79,7 +79,7 @@ const Hero = () => {
               onClick={scrollToAbout}
               variant="outline" 
               size="lg"
-              className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg font-semibold backdrop-blur-sm"
+              className="px-8 py-3 text-lg font-semibold"
             >
               Poznaj szczegóły
             </Button>
