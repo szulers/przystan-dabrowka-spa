@@ -8,63 +8,73 @@ const Gallery = () => {
 
   const images = [
     {
+      src: '/lovable-uploads/6ee6e733-b10b-4302-9fe0-353c0ab55a89.png',
+      alt: 'Widok na osiedle Dąbrówka Zacisze z głównej drogi – domy bliźniacze, kostka brukowa',
+      category: 'Zewnętrzne'
+    },
+    {
+      src: '/lovable-uploads/2acdf989-f381-43ce-85eb-d3910ab38101.png',
+      alt: 'Domy bliźniacze Dąbrówka Zacisze – elewacja frontowa',
+      category: 'Zewnętrzne'
+    },
+    {
       src: '/lovable-uploads/babee5a7-7ce4-4464-89bd-9993fd4aebcf.png',
-      alt: 'Widok na osiedle z głównej drogi',
+      alt: 'Widok na osiedle z głównej drogi (wariant ujęcia)',
       category: 'Zewnętrzne'
     },
     {
       src: '/lovable-uploads/9420677e-3b4c-4a9b-b593-fa7b988f34d6.png',
-      alt: 'Dom z garażem i ogrodem',
+      alt: 'Dom z garażem i ogrodem w Dąbrówka Zacisze',
       category: 'Zewnętrzne'
     },
     {
       src: '/lovable-uploads/66de8c7d-36d0-4a05-ba53-17f29b7bd6bf.png',
-      alt: 'Kameralne osiedle 4 domów',
+      alt: 'Kameralne osiedle 4 domów – Dąbrówka Zacisze',
       category: 'Zewnętrzne'
     },
     {
       src: '/lovable-uploads/0a7f7352-e56a-4130-8c4c-5a7fbd6a7cb1.png',
-      alt: 'Widok z ogrodu na dom',
+      alt: 'Widok z ogrodu na dom – Dąbrówka Zacisze',
       category: 'Zewnętrzne'
     },
     {
       src: '/lovable-uploads/0a1d84d6-f3a1-4a64-ba20-1e76d17674f8.png',
-      alt: 'Salon z aneksem kuchennym',
+      alt: 'Salon z aneksem kuchennym – nowoczesne wnętrze',
       category: 'Wnętrza'
     },
     {
       src: '/lovable-uploads/5dfdf22a-f265-4c93-b677-d1e55511a745.png',
-      alt: 'Nowoczesna kuchnia',
+      alt: 'Nowoczesna kuchnia – dom Dąbrówka Zacisze',
       category: 'Wnętrza'
     },
     {
       src: '/lovable-uploads/d5abed06-924b-49b5-8f49-e968523ec425.png',
-      alt: 'Salon z nowoczesnymi schodami',
+      alt: 'Salon z nowoczesnymi schodami – funkcjonalna przestrzeń',
       category: 'Wnętrza'
     },
     {
       src: '/lovable-uploads/78526a10-53ac-4fc7-9a0c-e7b4b1259cb6.png',
-      alt: 'Stylowy salon',
+      alt: 'Stylowy salon – komfortowe wnętrze',
       category: 'Wnętrza'
     },
     {
       src: '/lovable-uploads/355b5a99-225e-4268-a2bd-313e0406226c.png',
-      alt: 'Rzut parteru z góry',
+      alt: 'Rzut parteru z góry – układ funkcjonalny',
       category: 'Rzuty'
     },
     {
       src: '/lovable-uploads/e6450fd2-eb96-4073-b3c4-476ebde83d86.png',
-      alt: 'Rzut piętra z góry',
+      alt: 'Rzut piętra z góry – przestronne sypialnie',
       category: 'Rzuty'
     },
     {
       src: '/lovable-uploads/e994d6d9-4fc7-49b4-b626-f86dbd10d446.png',
-      alt: 'Widok zewnętrzny osiedla',
+      alt: 'Widok zewnętrzny osiedla – Nowe domy pod Siedlcami',
       category: 'Zewnętrzne'
     },
     {
       src: '/lovable-uploads/1c879603-c4f9-4b16-97e8-8d8305d03f73.png',
-      alt: 'Widok na osiedle z drogi',
+      alt: 'Widok na osiedle z drogi – Inwestycja Dąbrówka Zacisze',
       category: 'Zewnętrzne'
     }
   ];
@@ -105,6 +115,8 @@ const Gallery = () => {
             <img
               src={images[currentSlide].src}
               alt={images[currentSlide].alt}
+              loading="eager"
+              decoding="async"
               className="w-full h-full object-cover cursor-pointer transition-smooth hover:scale-105"
               onClick={() => openLightbox(images[currentSlide].src)}
             />
@@ -168,6 +180,8 @@ const Gallery = () => {
               <img
                 src={image.src}
                 alt={image.alt}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-32 md:h-40 object-cover transition-smooth group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-smooth flex items-center justify-center">
