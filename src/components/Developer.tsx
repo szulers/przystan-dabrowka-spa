@@ -38,7 +38,7 @@ const Developer = () => {
               <CardContent className="p-8">
                 <div className="text-center mb-6">
                   <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <img src="/lovable-uploads/c8a23028-eef7-4544-91a9-9c4923e3fd82.png" alt="Logo dewelopera" className="w-16 h-16 object-contain" />
+                    <img src="/lovable-uploads/bbab36d3-bf58-4a06-8886-a1d8eccaab0a.png" alt="Logo dewelopera Dąbrówka Wylazy Zacisze" className="w-16 h-16 object-contain" />
                   </div>
                   <h3 className="font-playfair text-2xl font-bold text-foreground mb-2">Dąbrówka Wyłazy Zacisze</h3>
                   <p className="text-muted-foreground">Lokalny deweloper</p>

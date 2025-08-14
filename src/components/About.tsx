@@ -8,7 +8,7 @@ const About = () => {
   }, {
     icon: TreePine,
     title: 'Prywatna zieleń',
-    description: 'Własna droga wewnętrzna i część wspólna zieleni'
+    description: 'Własna droga wewnętrzna oraz ogród do aranżacji'
   }, {
     icon: Shield,
     title: 'Bezpieczne osiedle',
@@ -67,7 +67,7 @@ const About = () => {
 
         {/* Stats Section */}
         <div className="bg-primary/5 rounded-2xl p-8 md:p-12">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
+          <div className="grid md:grid-cols-3 gap-8 text-center justify-center">
             <div className="animate-scale-in">
               <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">4</div>
               <div className="text-muted-foreground">Domy w osiedlu</div>
@@ -75,9 +75,7 @@ const About = () => {
             <div className="animate-scale-in" style={{
             animationDelay: '100ms'
           }}>
-              <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">170,5
-
-            </div>
+              <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">170,5</div>
               <div className="text-muted-foreground">m² powierzchni</div>
             </div>
             <div className="animate-scale-in" style={{
@@ -85,12 +83,6 @@ const About = () => {
           }}>
               <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">12</div>
               <div className="text-muted-foreground">minut do Siedlec</div>
-            </div>
-            <div className="animate-scale-in" style={{
-            animationDelay: '300ms'
-          }}>
-              <div className="text-3xl md:text-4xl font-bold text-primary font-playfair mb-2">100%</div>
-              <div className="text-muted-foreground">Gotowe do zamieszkania</div>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const Gallery = () => {
   const images = [
     {
       src: '/lovable-uploads/6ee6e733-b10b-4302-9fe0-353c0ab55a89.png',
-      alt: 'Widok na osiedle Dąbrówka Zacisze z głównej drogi – domy bliźniacze, kostka brukowa',
+      alt: 'Widok na osiedle Dąbrówka Zacisze z głównej drogi',
       category: 'Zewnętrzne'
     },
     {
@@ -49,7 +49,7 @@ const Gallery = () => {
     },
     {
       src: '/lovable-uploads/d5abed06-924b-49b5-8f49-e968523ec425.png',
-      alt: 'Salon z nowoczesnymi schodami – funkcjonalna przestrzeń',
+      alt: 'Salon z nowoczesną funkcjonalną przestrzenią',
       category: 'Wnętrza'
     },
     {
@@ -69,7 +69,7 @@ const Gallery = () => {
     },
     {
       src: '/lovable-uploads/e994d6d9-4fc7-49b4-b626-f86dbd10d446.png',
-      alt: 'Widok zewnętrzny osiedla – Nowe domy pod Siedlcami',
+      alt: 'Widok zewnętrzny osiedla',
       category: 'Zewnętrzne'
     },
     {
