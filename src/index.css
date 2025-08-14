@@ -8,34 +8,34 @@
 
 @layer base {
   :root {
-    /* Natural Color Palette */
-    --background: 60 21% 96%; /* Sandy beige #F5F5DC */
-    --foreground: 0 0% 18%; /* Graphite #2F2F2F */
+    /* Forest Green Color Palette - matching new logo */
+    --background: 48 15% 90%; /* Light sage beige #E8E6DC */
+    --foreground: 120 30% 20%; /* Deep forest green #2D5A2D */
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 18%;
+    --card: 48 15% 95%;
+    --card-foreground: 120 30% 20%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 18%;
+    --popover: 48 15% 95%;
+    --popover-foreground: 120 30% 20%;
 
-    /* Olive Green Primary */
-    --primary: 70 43% 30%; /* #556B2F */
-    --primary-foreground: 0 0% 100%;
-    --primary-light: 70 43% 45%;
-    --primary-dark: 70 43% 20%;
+    /* Forest Green Primary - matching logo */
+    --primary: 120 40% 25%; /* #336633 */
+    --primary-foreground: 48 15% 95%;
+    --primary-light: 120 40% 35%;
+    --primary-dark: 120 40% 18%;
 
-    /* Sandy Beige Secondary */
-    --secondary: 60 21% 96%; /* #F5F5DC */
-    --secondary-foreground: 0 0% 18%;
-    --secondary-dark: 60 21% 88%;
+    /* Sage Beige Secondary */
+    --secondary: 48 15% 90%; /* #E8E6DC */
+    --secondary-foreground: 120 30% 20%;
+    --secondary-dark: 48 15% 82%;
 
-    /* Graphite Accent */
-    --accent: 0 0% 18%; /* #2F2F2F */
-    --accent-foreground: 0 0% 100%;
-    --accent-light: 0 0% 40%;
+    /* Dark Forest Accent */
+    --accent: 120 30% 15%; /* #1F3A1F */
+    --accent-foreground: 48 15% 95%;
+    --accent-light: 120 30% 30%;
 
-    --muted: 60 21% 92%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 48 15% 85%;
+    --muted-foreground: 120 20% 40%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -46,15 +46,15 @@
 
     --radius: 0.75rem;
 
-    /* Custom gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(70 43% 30%) 0%, hsl(70 43% 45%) 100%);
-    --gradient-section: linear-gradient(180deg, hsl(60 21% 98%) 0%, hsl(60 21% 94%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(60 21% 98%) 100%);
+    /* Custom gradients - updated for forest green theme */
+    --gradient-hero: linear-gradient(135deg, hsl(120 40% 25%) 0%, hsl(120 40% 35%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(48 15% 95%) 0%, hsl(48 15% 90%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(48 15% 98%) 0%, hsl(48 15% 95%) 100%);
 
-    /* Custom shadows */
-    --shadow-soft: 0 4px 20px -2px hsl(70 43% 30% / 0.1);
-    --shadow-medium: 0 8px 30px -4px hsl(70 43% 30% / 0.15);
-    --shadow-strong: 0 20px 40px -8px hsl(70 43% 30% / 0.2);
+    /* Custom shadows - updated for forest green theme */
+    --shadow-soft: 0 4px 20px -2px hsl(120 40% 25% / 0.1);
+    --shadow-medium: 0 8px 30px -4px hsl(120 40% 25% / 0.15);
+    --shadow-strong: 0 20px 40px -8px hsl(120 40% 25% / 0.2);
 
     /* Animation variables */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

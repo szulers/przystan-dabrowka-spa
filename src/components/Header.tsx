@@ -41,13 +41,13 @@ const Header = () => {
           className="flex items-center space-x-3 hover:opacity-80 transition-smooth"
         >
           <img 
-            src="/lovable-uploads/c8a23028-eef7-4544-91a9-9c4923e3fd82.png" 
-            alt="Dąbrówka Zacisze Logo" 
+            src="/lovable-uploads/bbab36d3-bf58-4a06-8886-a1d8eccaab0a.png" 
+            alt="Dąbrówka Wylazy Zacisze Logo" 
             className="h-12 w-auto"
           />
           <div className="hidden sm:block">
             <h3 className="font-playfair font-semibold text-primary text-lg leading-tight">
-              Dąbrówka<br />
+              Dąbrówka Wylazy<br />
               <span className="text-sm text-muted-foreground">Zacisze</span>
             </h3>
           </div>

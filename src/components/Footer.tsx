@@ -39,13 +39,13 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <img 
-                src="/lovable-uploads/c8a23028-eef7-4544-91a9-9c4923e3fd82.png" 
-                alt="Dąbrówka Zacisze Logo" 
+                src="/lovable-uploads/bbab36d3-bf58-4a06-8886-a1d8eccaab0a.png" 
+                alt="Dąbrówka Wylazy Zacisze Logo" 
                 className="h-12 w-auto"
               />
               <div>
                 <h3 className="font-playfair font-bold text-xl text-white">
-                  Dąbrówka Zacisze
+                  Dąbrówka Wylazy Zacisze
                 </h3>
                 <p className="text-white/80 text-sm">Nowoczesne domy dla rodzin</p>
               </div>
@@ -122,7 +122,7 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-white/60 text-sm">
-              © {currentYear} Dąbrówka Zacisze. Wszystkie prawa zastrzeżone.
+              © {currentYear} Dąbrówka Wylazy Zacisze. Wszystkie prawa zastrzeżone.
             </div>
             <div className="flex items-center space-x-6 text-sm text-white/60">
               <button 
