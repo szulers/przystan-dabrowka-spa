@@ -1,32 +1,24 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Award, Users, Clock, CheckCircle } from 'lucide-react';
-
 const Developer = () => {
-  const values = [
-    {
-      icon: Award,
-      title: 'Jakość',
-      description: 'Wysokiej klasy materiały i staranna realizacja każdego detalu'
-    },
-    {
-      icon: Users,
-      title: 'Kontakt z klientem',
-      description: 'Indywidualne podejście i stały kontakt na każdym etapie'
-    },
-    {
-      icon: Clock,
-      title: 'Terminowość',
-      description: 'Dotrzymujemy ustalonych terminów i harmonogramów'
-    },
-    {
-      icon: CheckCircle,
-      title: 'Doświadczenie',
-      description: 'Lata praktyki w branży budowlanej i deweloperskiej'
-    }
-  ];
-
-  return (
-    <section id="developer" className="py-20 bg-primary/5">
+  const values = [{
+    icon: Award,
+    title: 'Jakość',
+    description: 'Wysokiej klasy materiały i staranna realizacja każdego detalu'
+  }, {
+    icon: Users,
+    title: 'Kontakt z klientem',
+    description: 'Indywidualne podejście i stały kontakt na każdym etapie'
+  }, {
+    icon: Clock,
+    title: 'Terminowość',
+    description: 'Dotrzymujemy ustalonych terminów i harmonogramów'
+  }, {
+    icon: CheckCircle,
+    title: 'Doświadczenie',
+    description: 'Lata praktyki w branży budowlanej i deweloperskiej'
+  }];
+  return <section id="developer" className="py-20 bg-primary/5">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
@@ -46,15 +38,9 @@ const Developer = () => {
               <CardContent className="p-8">
                 <div className="text-center mb-6">
                   <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <img 
-                      src="/lovable-uploads/c8a23028-eef7-4544-91a9-9c4923e3fd82.png" 
-                      alt="Logo dewelopera" 
-                      className="w-16 h-16 object-contain"
-                    />
+                    <img src="/lovable-uploads/c8a23028-eef7-4544-91a9-9c4923e3fd82.png" alt="Logo dewelopera" className="w-16 h-16 object-contain" />
                   </div>
-                  <h3 className="font-playfair text-2xl font-bold text-foreground mb-2">
-                    Przystań Dąbrówka Ług
-                  </h3>
+                  <h3 className="font-playfair text-2xl font-bold text-foreground mb-2">Dąbrówka Wyłazy Zacisze</h3>
                   <p className="text-muted-foreground">Lokalny deweloper</p>
                 </div>
 
@@ -81,12 +67,9 @@ const Developer = () => {
             </h3>
             
             <div className="space-y-6">
-              {values.map((value, index) => (
-                <Card 
-                  key={index}
-                  className="card-gradient hover-lift border-0 shadow-soft animate-slide-up"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
+              {values.map((value, index) => <Card key={index} className="card-gradient hover-lift border-0 shadow-soft animate-slide-up" style={{
+              animationDelay: `${index * 100}ms`
+            }}>
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
@@ -102,8 +85,7 @@ const Developer = () => {
                       </div>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
@@ -117,11 +99,15 @@ const Developer = () => {
                   <div className="text-3xl font-bold text-primary font-playfair mb-2">15+</div>
                   <div className="text-muted-foreground">Lat doświadczenia</div>
                 </div>
-                <div className="animate-scale-in" style={{ animationDelay: '100ms' }}>
+                <div className="animate-scale-in" style={{
+                animationDelay: '100ms'
+              }}>
                   <div className="text-3xl font-bold text-primary font-playfair mb-2">50+</div>
                   <div className="text-muted-foreground">Zrealizowanych projektów</div>
                 </div>
-                <div className="animate-scale-in" style={{ animationDelay: '200ms' }}>
+                <div className="animate-scale-in" style={{
+                animationDelay: '200ms'
+              }}>
                   <div className="text-3xl font-bold text-primary font-playfair mb-2">100%</div>
                   <div className="text-muted-foreground">Zadowolonych klientów</div>
                 </div>
@@ -130,8 +116,6 @@ const Developer = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Developer;
